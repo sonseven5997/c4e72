@@ -1,0 +1,101 @@
+
+#avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile{
+    width: 20%;
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.profile h2{
+    text-align: center;
+    color: white;
+    background-color: palevioletred;
+    margin-top: 0px;
+}
+
+.profile #name{
+    margin-left: 5%;
+    font-size: larger;
+}
+.profile #age{
+    margin-left: 5%;
+    font-size: larger;
+}
+.profile #gender{
+    margin-left: 5%;
+    font-size: larger;
+}
+.profile h1{
+    text-align: center;
+}
+.profile h1 button{
+    padding: 5px 30px 5px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#79b8ff;
+}
+
+#main-content{
+    width: 500px;
+    height: 500px;
+    margin-left: 21%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+#main-content h1{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    background-color:#79b8ff ;
+    margin-left: 10px;
+}
+#img{
+    width:500px;
+    height:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#objName{
+    text-align: center;
+}
+
+#flex-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#info{
+    align-content: space-between;
+}
+
+h1{
+    margin-left: 300px;
+}
+
+#liked{
+    margin-left: 5%;
+    font-size: larger;
+}
+
+#logout{
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
